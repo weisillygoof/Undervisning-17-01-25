@@ -1,12 +1,17 @@
 * {
   box-sizing: border-box;
+  text-align: center;
 }
 
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
-  background-color: white;
+  background: url("https://i.redd.it/art-someone-told-me-to-draw-ditto-with-a-45-and-someone-v0-k96etk0vx4ra1.png?width=2048&format=png&auto=webp&s=2b5c164f6e8097f019601a5704d09c4af32f0d1b");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: scaleX(-1);
+
 }
 
 nav {
@@ -20,27 +25,9 @@ nav {
   background-color: #eee;
 }
 
-nav a {
-  display: inline-block;
-  min-width: 9rem;
-  padding: 0.5rem;
-  border-radius: 0.2rem;
-  border: solid 1px #aaa;
-  text-align: center;
-  text-decoration: none;
-  color: #555;
-}
 
-nav a[aria-current='page'] {
-  color: #000;
-  background-color: #d4d4d4;
-}
 
-main {
-  padding: 1rem;
-}
-
-h1 {
-  font-weight: bold;
-  font-size: 1.5rem;
+.dittoimg {
+  width: 50%;
+  margin-top: -30vh;
 }
