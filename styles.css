@@ -10,7 +10,7 @@ body {
   background: url("https://i.redd.it/art-someone-told-me-to-draw-ditto-with-a-45-and-someone-v0-k96etk0vx4ra1.png?width=2048&format=png&auto=webp&s=2b5c164f6e8097f019601a5704d09c4af32f0d1b");
   background-size: cover;
   background-repeat: no-repeat;
-  transform: scaleX(-1);
+  /* transform: scaleX(-1); */
 
 }
 
